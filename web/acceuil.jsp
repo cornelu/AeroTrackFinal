@@ -38,22 +38,18 @@
 
   </div>
   <div class="row">
- <form action = "./Controller?operateur=A"method="post">   
     <div class="large-4 columns push-2">
       <div class="service ">
             <img class="img-services" src="images/services01-01.png" title="" alt="Image non existente">
-            <input type="submit" name="ConsulterArrives" value="Consulter" />
+            <button  id ="service1" class = "bService" onClick= "window.location='services.php';" >Consulter</button>
       </div>
     </div>
- </form>
-  <form action = "./Controller?operateur=D"method="post">      
     <div class="large-4 columns push-2">
       <div class="service ">
 	              <img class="img-services" src="images/services01-02.png" title="" alt="Image non existente"/>
-            <input type="submit" name="ConsulterDepart" value="Consulter" />
+            <button  id ="service1" class = "bService" onClick= "window.location='services.php';" >Consulter</button>
       </div>
     </div>
-  </form>
   </div>
       <div id = "find"class="row">
         <div >
