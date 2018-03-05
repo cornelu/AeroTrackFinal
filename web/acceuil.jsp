@@ -40,7 +40,7 @@
     <div class="large-4 columns push-2">
       <div class="service ">
             <img class="img-services" src="images/services01-01.png" title="" alt="Image non existente">
-            <input type="submit" name="ConsulterArrives" value="Consulter" />
+            <input id ="service1" class = "bService" type="submit" name="ConsulterArrives" value="Consulter" />
       </div>
     </div>
  </form>
@@ -48,7 +48,7 @@
     <div class="large-4 columns push-2">
       <div class="service ">
 	              <img class="img-services" src="images/services01-02.png" title="" alt="Image non existente"/>
-            <input type="submit" name="ConsulterDepart" value="Consulter" />
+            <input id ="service1" class = "bService" type="submit" name="ConsulterDepart" value="Consulter" />
       </div>
     </div>
   </form>
