@@ -26,10 +26,8 @@
 				<a id="contact" href="#cont">ALERTES SMS / </a>
 				<a id="services" href="#serv">ARRIVEES / </a>
 				<a id="porfolio" href="#jobs">DEPARTS / </a>
-				<a class="active" id= "acceuil" href="#home">ACCUEIL / </a>
+				<a class="active" id= "acceuil" href="acceuil.jsp">ACCUEIL / </a>
 				<p>
-
-
 	</div>
 
 <!-- Begin Acceuil -->
@@ -38,18 +36,22 @@
 
   </div>
   <div class="row">
+ <form action = "./Controller?operateur=A"method="post">   
     <div class="large-4 columns push-2">
       <div class="service ">
             <img class="img-services" src="images/services01-01.png" title="" alt="Image non existente">
-            <button  id ="service1" class = "bService" onClick= "window.location='services.php';" >Consulter</button>
+            <input type="submit" name="ConsulterArrives" value="Consulter" />
       </div>
     </div>
+ </form>
+  <form action = "./Controller?operateur=D"method="post">      
     <div class="large-4 columns push-2">
       <div class="service ">
 	              <img class="img-services" src="images/services01-02.png" title="" alt="Image non existente"/>
-            <button  id ="service1" class = "bService" onClick= "window.location='services.php';" >Consulter</button>
+            <input type="submit" name="ConsulterDepart" value="Consulter" />
       </div>
     </div>
+  </form>
   </div>
       <div id = "find"class="row">
         <div >
