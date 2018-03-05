@@ -1,0 +1,40 @@
+
+body{
+background-image:url("../images/design_background.jpg");
+background-attachment:fixed;
+background-position: center center;
+background-size:cover;
+background-repeat:no-repeat;
+}
+
+.panel{
+  border:0px;
+  background:rgba(0, 0, 0, 0.5);
+  color:#black;
+  text-align:center;
+  padding-top:50px;
+  position:relative;
+  font-family:'Montserrat';
+  font-size: 12px;
+  font-style:bold;
+}
+.panel:hover{
+background:rgba(0,0,0,0.7);
+
+}
+h3{
+  margin:0;
+  padding:0;
+  color:#fdb813;
+  font-family:'Montserrat';
+}
+
+p{
+  margin:0;
+  padding:0;
+  color:#fdb813;
+  font-family:'Montserrat';
+
+}
+
+

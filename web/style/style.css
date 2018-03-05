@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-size: 28px;
+}
+
+
+.slider-bg{
+  width: 100%;
+}
+
+.img-fluid{
+  padding-top:40px;
+  width : 50%;
+  padding-bottom:20px;
+}
+#contact_email{
+  color: white;
+}
+#contact-holder{
+  padding-bottom:50px;
+  background-color: black;
+}
+
+.text-white{ color: white; }
+.alt-h{ font-family: 'Vollkorn'; font-weight: normal; }
+
+
+.btn{
+	background-color: black;
+	color: #fff;
+	padding: 18px 28px 18px 28px;
+	display: inline-block;
+	font-family:'Montserrat';
+	font-size: 12px;
+	letter-spacing: 2px;
+	cursor: pointer;
+}
+
+#serv{
+  background-image :url('../images/banner01.jpg');
+  padding-bottom : 50px;
+  background-size: 100%;
+}
+.jobImg{
+  width: 100%;
+}
+#jobs{
+  padding-top:30px;
+  padding-bottom:60px;
+}
+
+.page-spiel{ text-align: center; margin-bottom: 66px; }
+.page-spiel p{ margin-bottom: 0px; font-size: 20px; font-style: italic; }
+
+.divider{ 
+    position: relative; 
+    background-size:  a ;
+    background-attachment : fixed; 
+}
+
+
+.divider-hero{ font-size: 2em; line-height: 1.4; }
+
+.divider{ margin-bottom: 88px; }
+.divider .pad-large{ margin-bottom: -110px; }
+.promo-pic{
+	position: relative;
+	top: 200px;
+	opacity: 0;
+	-webkit-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+}
+
+.service{
+	padding-top:400px;
+	}
+	
+#find{
+	padding-top:500px;
+	}
+
+/***** SERVICES SECTION *****/
+.services-divider{
+height:1300px;
+  text-align: center;
+}
+.bService {
+  background-color: black;
+  color: white;
+  height: 30px;
+  text-align: center;
+  font-family : inherit;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size:14px;
+
+}
+.bService {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.bService:hover {
+    background-color: white;
+    color: black;
+}
+.service{ max-width: 100%; margin: 0px auto; }
+
+
