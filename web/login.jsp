@@ -8,6 +8,7 @@
 <!Doctype HTML>
 <html>
 <Head>
+    <% String message = (String)request.getAttribute("alertMsg");%>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel = "stylesheet" href="style/bootstrap.min.css" rel="stylesheet" media="screen" type = "text/css"/>
@@ -22,11 +23,11 @@
 <body>
     	<div class="navbar" id="menuNav">
 				<a 
-				id="login" href="login.jsp">CONNEXION </a>
+				id="login" class="active" href="login.jsp">CONNEXION </a>
 				<a id="contact" href="#cont">ALERTES SMS / </a>
 				<a id="services" href="#serv">ARRIVEES / </a>
 				<a id="porfolio" href="#jobs">DEPARTS / </a>
-				<a class="active" id= "acceuil" href="acceuil.jsp">ACCUEIL / </a>
+				<a  id= "acceuil" href="acceuil.jsp">ACCUEIL / </a>
 				<p>
 
 
@@ -50,7 +51,7 @@
             </div>
 			<p>Mot de passe oublié?</p>
             <div class="form-group">
-				<input type="submit" name="bRegistrer" class="btn btn-succes btn-lg btn-block" value="Récupérer " />
+				<input type="submit" name="bRegistrer" class="btn btn-succes btn-lg btn-block" value="Recuperer " />
             </div>
           </form>
         </div>
@@ -62,7 +63,10 @@
 </div> 
 <!--Connexion a BD validation de l'identification-->
 
+<script type="text/javascript">
+    var msg = "<%=message%>";
+    alert(msg);
+</script>
 </body>
 </html>
 
->
